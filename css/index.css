@@ -7,5 +7,5 @@
 .presentation {
 	color: var(--fg-color);
 	font-size: 5em;
-	font-family: 'Inter', sans-serif;
+	/* font-family: 'Inter', sans-serif; */
 }
