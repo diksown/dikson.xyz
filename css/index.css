@@ -1,36 +1,3 @@
-:root {
-	--bg-color: #282C34;
-	--fg-color: #f0f0f0;
-	font-family: 'Inter', sans-serif;
-}
-
-* {
-	font-size: 100%;
-	background-color: var(--bg-color);
-	color: var(--fg-color);
-}
-
-/* Is this the really best way to do that? */
-.content-wrapper {
-	margin: 2%;
-}
-
-.navbar {
-	font-family: 'JetBrains Mono', monospace;
-	display: table;
-	margin: 0 auto;
-	width: 100%;
-}
-
-
-/* Improve this selector later */
-/* Also, understand how I can split this list across all screen. */
-/* Maybe it's time to learn some bootstrap? */
-li {
-	display: inline-block;
-	margin: 0 5%;
-}
-
 .greeting {
 	color: var(--fg-color);
 	font-size: 2em;
