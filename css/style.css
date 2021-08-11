@@ -22,6 +22,7 @@ body {
 	font-size: 1.25em;
 	/* Should I put that on :root? */
 	font-family: 'IBM Plex Sans', sans-serif;
+	margin: 0;
 }
 
 .navbar {
