@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-
-/*
-:root {
-	--bg-color: #40174b;
-	--fg-color: #e8fffd;
-	--nav-color: #2f1136;
-	font-family: 'Inter', sans-serif;
-}
-*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 :root {
 	--bg-color: #342E37;
@@ -26,9 +18,9 @@ body {
 }
 
 .navbar {
-	font-family: 'JetBrains Mono', monospace;
+	/* font-family: 'JetBrains Mono', monospace; */
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	margin: 0;
 	background-color: var(--nav-color);
 }
@@ -37,10 +29,22 @@ body {
 	font-size: 1.1em;
 	color: var(--fg-color);
 	text-align: center;
-	padding: 10px;
+	padding: 5px 20px;
 	text-decoration: none;
 }
 
 .content-wrapper {
 	margin: 20px;
+}
+
+
+/* Improve this selector later */
+h1 {
+	font-family: 'JetBrains Mono';
+}
+
+/* This one, also */
+a {
+	text-decoration: none;
+	color: var(--nav-color);
 }
