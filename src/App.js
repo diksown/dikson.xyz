@@ -20,13 +20,19 @@ function App() {
           </p>
 
           <p>
-            Currently, I’m developing Musa, a website that uses AI to generate
-            programming project ideas.
+            Currently, I’m developing{" "}
+            <a href="https://musa.dikson.xyz/">Musa</a>, a website that uses AI
+            to generate programming project ideas.
           </p>
 
           <p>
             If you're interested in seeing what kind of awesome stuff I can do,
-            check out my GitHub, LinkedIn and Resume.
+            check out my <a href="https://github.com/diksown">GitHub</a>,{" "}
+            <a href="https://www.linkedin.com/in/diksown/">LinkedIn</a> and{" "}
+            <a href="https://drive.google.com/file/d/1X1jBj0hRpKjfQzi-3c3VitK7ewcdV5H7/view">
+              Resume
+            </a>
+            .
           </p>
 
           <p>Spoiler: Right now, I’m open to work!</p>
