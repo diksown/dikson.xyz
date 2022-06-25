@@ -12,11 +12,11 @@
 .Card {
   display: flex;
   flex-direction: column;
-  /* background-color: #282c34; */
-  background-color: hsl(210, 20%, 40%);
+  background-color: #282c34;
+  box-shadow: 0 0 5px 5px #282c34;
   color: rgb(226, 226, 226);
-  padding: 1.5rem;
-  margin: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
   max-width: 600px;
   border-radius: 1.5rem;
 }
