@@ -1,1 +1,0 @@
-typing("aob~~bout2~.x~tex~~xt")

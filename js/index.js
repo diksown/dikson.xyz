@@ -1,1 +1,0 @@
-typing("hi,~~~~Hi, im~~I'm d~Diksno~~on.")
