@@ -13,23 +13,34 @@
 .Card {
   display: flex;
   flex-direction: column;
-  /* background-color: #0d0e0f; */
-  /* box-shadow: 0 0 5px 5px #0d0e0f; */
+  align-items: center;
   color: white;
   padding: 1rem;
   margin: 1rem;
   max-width: 800px;
-  /* border-radius: 1.5rem; */
 }
 
 .CardTitle {
-  font-size: calc(18px + 3.3vw);
+  font-size: min(calc(30px + 3.4vw), 70px);
+  margin: 10px;
 }
 
 .CardBody {
   font-size: 1rem;
   font-weight: normal;
   font-family: "Roboto Mono";
+}
+
+.IconList {
+  margin: 20px;
+  /* display: flex;
+  justify-content: space-between; */
+  /* max-width: 300px; */
+}
+
+.Icon {
+  padding: 10px;
+  /* add your styles for the icons here */
 }
 
 a {
