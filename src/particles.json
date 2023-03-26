@@ -35,7 +35,7 @@
       "color": "#ffffff",
       "distance": 150,
       "enable": true,
-      "opacity": 0.5,
+      "opacity": 0.1,
       "width": 3
     },
     "collisions": {
@@ -59,7 +59,7 @@
       "value": 20
     },
     "opacity": {
-      "value": 0.5
+      "value": 0.1
     },
     "shape": {
       "type": "circle"
