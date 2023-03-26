@@ -15,9 +15,12 @@ function App() {
     <div className="App">
       <Particles options={particlesOptions} init={particlesInit} />
       <div className="Card">
-        <div className="CardTitle">Dikson Santos_</div>
+        <div className="CardTitle">
+          Dikson Santos<span className="ColoredDetail">_</span>
+        </div>
         <div className="CardBody">
-          <div>full stack dev & computer science student</div>
+          <div>full stack dev @ mindsight</div>
+          <div>cs undergrad @ icmc usp</div>
           <div>&lt;3 maths, cryptography, design, AI & etc</div>
         </div>
         <div className="IconList">

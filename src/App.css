@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
   margin: 1rem;
   max-width: 800px;
 }
@@ -29,18 +29,19 @@
   font-size: 1rem;
   font-weight: normal;
   font-family: "Roboto Mono";
+  margin: 0 1rem;
 }
 
 .IconList {
   margin: 20px;
-  /* display: flex;
-  justify-content: space-between; */
-  /* max-width: 300px; */
 }
 
 .Icon {
   padding: 10px;
-  /* add your styles for the icons here */
+}
+
+.ColoredDetail {
+  color: #499dff;
 }
 
 a {

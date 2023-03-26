@@ -29,13 +29,13 @@
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#232529"
     },
     "links": {
-      "color": "#ffffff",
+      "color": "#232529",
       "distance": 150,
       "enable": true,
-      "opacity": 0.1,
+      "opacity": 1,
       "width": 3
     },
     "collisions": {
@@ -59,7 +59,7 @@
       "value": 20
     },
     "opacity": {
-      "value": 0.1
+      "value": 1
     },
     "shape": {
       "type": "circle"
