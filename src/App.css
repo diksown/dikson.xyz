@@ -7,28 +7,26 @@
   height: 100%;
   width: 100%;
   position: fixed;
+  font-family: "Inter", sans-serif;
 }
 
 .Card {
   display: flex;
   flex-direction: column;
-  background-color: #282c34;
-  box-shadow: 0 0 5px 5px #282c34;
+  background-color: #0d0e0f;
+  box-shadow: 0 0 5px 5px #0d0e0f;
   color: rgb(226, 226, 226);
   padding: 1rem;
   margin: 1rem;
-  max-width: 600px;
+  max-width: 800px;
   border-radius: 1.5rem;
 }
 
 .CardTitle {
-  font-family: "Space Grotesk", sans-serif;
   font-size: calc(18px + 3.3vw);
-  font-weight: bold;
 }
 
 .CardBody {
-  font-family: "Chivo", sans-serif;
   font-size: 1rem;
   font-weight: normal;
 }

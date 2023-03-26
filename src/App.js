@@ -13,29 +13,13 @@ function App() {
     <div className="App">
       <Particles options={particlesOptions} init={particlesInit} />
       <div className="Card">
-        <div className="CardTitle">Hey, I'm Dikson :)</div>
         <div className="CardBody">
-          <p>
-            I’m a Brazilian CS student who likes to make cool and pretty stuff.
-          </p>
-
-          <p>
-            Currently, I’m developing{" "}
-            <a href="https://musa.dikson.xyz/">Musa</a>, a website that uses AI
-            to generate programming project ideas.
-          </p>
-
-          <p>
-            If you're interested in seeing what kind of awesome stuff I can do,
-            check out my <a href="https://github.com/diksown">GitHub</a>,{" "}
-            <a href="https://www.linkedin.com/in/diksown/">LinkedIn</a> and{" "}
-            <a href="https://drive.google.com/file/d/1X1jBj0hRpKjfQzi-3c3VitK7ewcdV5H7/view">
-              Resume
-            </a>
-            .
-          </p>
-
-          <p>Spoiler: Right now, I’m open to work!</p>
+          <p>Hey, I'm</p>
+        </div>
+        <div className="CardTitle">Dikson Santos_</div>
+        <div className="CardBody">
+          <p>20 year old computer science student</p>
+          <span>&lt;3 maths, cryptography, design, AI & etc</span>
         </div>
       </div>
     </div>
