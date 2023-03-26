@@ -3,6 +3,8 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
+import IconLink from "./IconLink";
+import { mdiGithub, mdiFileAccount, mdiLinkedin, mdiAt } from "@mdi/js";
 
 function App() {
   const particlesInit = useCallback((main) => {
@@ -13,13 +15,19 @@ function App() {
     <div className="App">
       <Particles options={particlesOptions} init={particlesInit} />
       <div className="Card">
-        <div className="CardBody">
-          <p>Hey, I'm</p>
-        </div>
         <div className="CardTitle">Dikson Santos_</div>
         <div className="CardBody">
-          <p>20 year old computer science student</p>
-          <span>&lt;3 maths, cryptography, design, AI & etc</span>
+          <div>full stack dev & computer science student</div>
+          <div>&lt;3 maths, cryptography, design, AI & etc</div>
+        </div>
+        <div className="IconList">
+          <IconLink link="https://github.com/diksown" icon={mdiGithub} />
+          <IconLink link="https://linkedin.com/diksown" icon={mdiLinkedin} />
+          <IconLink link="mailto:diksonfer@gmail.com" icon={mdiAt} />
+          <IconLink
+            link="https://drive.google.com/file/d/1X1jBj0hRpKjfQzi-3c3VitK7ewcdV5H7/view"
+            icon={mdiFileAccount}
+          />
         </div>
       </div>
     </div>
