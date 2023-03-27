@@ -25,7 +25,7 @@ function App() {
         </div>
         <div className="IconList">
           <IconLink link="https://github.com/diksown" icon={mdiGithub} />
-          <IconLink link="https://linkedin.com/diksown" icon={mdiLinkedin} />
+          <IconLink link="https://linkedin.com/in/diksown" icon={mdiLinkedin} />
           <IconLink link="mailto:diksonfer@gmail.com" icon={mdiAt} />
           <IconLink
             link="https://drive.google.com/file/d/1X1jBj0hRpKjfQzi-3c3VitK7ewcdV5H7/view"
