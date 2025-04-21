@@ -21,12 +21,12 @@
 }
 
 .CardTitle {
-  font-size: min(calc(30px + 3.4vw), 70px);
+  font-size: min(calc(20px + 3vw), 40px);
   margin: 10px;
 }
 
 .CardBody {
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: normal;
   font-family: "Roboto Mono";
   margin: 0 1rem;

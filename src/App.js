@@ -19,9 +19,9 @@ function App() {
           Dikson Santos<span className="ColoredDetail">_</span>
         </div>
         <div className="CardBody">
-          <div>full stack dev @ mindsight</div>
-          <div>cs undergrad @ icmc usp</div>
-          <div>&lt;3 maths, cryptography, design, AI & etc</div>
+          <div>software engineer @ google</div>
+          <div>computer science alumni @ usp</div>
+          <div>&lt;3 competitive programming & CTFs</div>
         </div>
         <div className="IconList">
           <IconLink link="https://github.com/diksown" icon={mdiGithub} />
